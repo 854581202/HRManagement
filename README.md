@@ -10,6 +10,7 @@ Mysql
 JDK 1.8
 
 代码组织结构：
-![Image text](https://github.com/wenyaxinluoyang/HRManagement/images/程序结构图.png)
+
+![Error](https://github.com/wenyaxinluoyang/HRManagement/images/程序结构图.png)
 
 运行效果图:
