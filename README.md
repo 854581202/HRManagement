@@ -41,19 +41,20 @@ JDK 1.8  <br>
 ![Error载入出错](https://github.com/wenyaxinluoyang/HRManagement/blob/master/images/%E5%8A%B3%E8%B5%84%E7%AE%A1%E7%90%86%E5%8E%86%E5%8F%B2%E6%9F%A5%E8%AF%A2.png)
 
 <br>
-使用方法如下：
-1.下载项目压缩包并解压，将项目以java project导入。
-2.到自己的mysql中建立名为hrdatabase的数据库，字符集设为utf-8,然后运行文件夹内提供的hrdatabase.sql文件。
-3.打开项目，打开DataOperator包，修改Database类中的user，pass,user改为自己mysql的用户名，pass改为自己mysql的密码。
-4.如果自己的mysql位于其它主机，比如云服务器，还需修改url中的IP地址。
-5.打开HRPackage包，运行HrMain。
+使用方法如下：<br>
+1.下载项目压缩包并解压，将项目以java project导入。<br>
+2.到自己的mysql中建立名为hrdatabase的数据库，字符集设为utf-8,然后运行文件夹内提供的hrdatabase.sql文件。<br>
+3.打开项目，打开DataOperator包，修改Database类中的user，pass,user改为自己mysql的用户名，pass改为自己mysql的密码。<br>
+4.如果自己的mysql位于其它主机，比如云服务器，还需修改url中的IP地址。<br>
+5.打开HRPackage包，运行HrMain。<br>
 
 <br>
-使用过程中可能出现的问题，项目当时在eclipse中，默认的字符集是GBK编码，如果你的工具里面使用utf-8，运行后，界面正常显示
-但是界面上所有汉字都会呈现出乱码的状态。可以自己使用一些转编码的工具转换编码以保证中文的正常显示。
-如果导入后出现大量报错，且导入步骤无误，请检查自己的JDK版本，是否为1.8。
+<br>
+使用过程中可能出现的问题，项目当时在eclipse中，默认的字符集是GBK编码，如果你的工具里面使用utf-8，运行后，<br>
+界面正常显示但是界面上所有汉字都会呈现出乱码的状态。可以自己使用一些转编码的工具转换编码以保证中文的正常显示。<br>
+如果导入后出现大量报错，且导入步骤无误，请检查自己的JDK版本，是否为1.8。<br>
 
-
+<br>
 <br>
 如果发现有bug，请在Issues提问。<br>
 如果觉得对你有用，请点star.<br>
