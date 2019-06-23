@@ -10,7 +10,8 @@ Eclipse <br>
 Mysql   <br>
 
 开发环境：<br>
-JDK 1.8  <br>
+jdk 1.8.0_141<br>
+mysql 5.5.27<br>
 
 代码组织结构：<br>
 
